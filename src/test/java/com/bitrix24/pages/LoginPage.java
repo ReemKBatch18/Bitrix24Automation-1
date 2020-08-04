@@ -1,21 +1,26 @@
 package com.bitrix24.pages;
 
-import com.bitrix24.utulities.ConfigurationReader;
+import com.bitrix24.utulities.Driver;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.Keys;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
-    private  final static Logger logger=Logger.getLogger(LoginPage.class);
-    @FindBy(name = "USER_LOGIN")
-    private WebElement email;
-    @FindBy(name = "USER_PASSWORD")
-    private WebElement password;
-    public void login() {
-        String usernameString = ConfigurationReader.getProperty("username");
-        String passwordString = ConfigurationReader.getProperty("password");
-        email.sendKeys(usernameString);
-        password.sendKeys(passwordString, Keys.ENTER);
+    public LoginPage(){
+        PageFactory.initElements(Driver.getDriver(), this);
     }
+
+    @FindBy(name = "USER_LOGIN")
+    public WebElement email;
+    @FindBy(name = "USER_PASSWORD")
+    public WebElement password;
+
+    @FindBy(xpath = "//input[@class='login-btn']")
+    public WebElement loginButton;
+
+    @FindBy(xpath = "//div[@class='errortext']")
+    public WebElement warningMessage;
+
 }

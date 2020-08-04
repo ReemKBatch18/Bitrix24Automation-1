@@ -1,1 +1,1 @@
-This file explaine 
+This file explains how to use project.

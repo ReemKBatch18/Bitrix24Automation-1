@@ -1,0 +1,34 @@
+2020-08-03 22:31:19 INFO  Hooks:16 - ::: Starting automation :::
+2020-08-03 22:31:19 INFO  Hooks:17 - Browser type: chrome
+2020-08-03 22:31:19 INFO  Hooks:18 - URL: "https://login2.nextbasecrm.com/"
+2020-08-03 22:31:19 INFO  Hooks:28 - ::: Ending automation :::
+2020-08-03 22:33:31 INFO  Hooks:16 - ::: Starting automation :::
+2020-08-03 22:33:31 INFO  Hooks:17 - Browser type: chrome
+2020-08-03 22:33:31 INFO  Hooks:18 - URL: "https://login2.nextbasecrm.com/"
+2020-08-03 22:33:31 INFO  Hooks:28 - ::: Ending automation :::
+2020-08-03 22:39:29 INFO  Hooks:16 - ::: Starting automation :::
+2020-08-03 22:39:29 INFO  Hooks:17 - Browser type: chrome
+2020-08-03 22:39:29 INFO  Hooks:18 - URL: "https://login2.nextbasecrm.com/"
+2020-08-03 22:39:29 INFO  Hooks:28 - ::: Ending automation :::
+2020-08-03 22:41:54 INFO  Hooks:16 - ::: Starting automation :::
+2020-08-03 22:41:54 INFO  Hooks:17 - Browser type: chrome
+2020-08-03 22:41:54 INFO  Hooks:18 - URL: "https://login2.nextbasecrm.com/"
+2020-08-03 22:41:54 INFO  Driver:33 - Browser :: chrome
+2020-08-03 22:42:08 INFO  Hooks:23 - Taking a screenshot
+2020-08-03 22:42:09 INFO  Hooks:28 - ::: Ending automation :::
+2020-08-03 22:43:10 INFO  Hooks:16 - ::: Starting automation :::
+2020-08-03 22:43:10 INFO  Hooks:17 - Browser type: chrome
+2020-08-03 22:43:10 INFO  Hooks:18 - URL: "https://login2.nextbasecrm.com/"
+2020-08-03 22:43:10 INFO  Driver:33 - Browser :: chrome
+2020-08-03 22:43:19 INFO  Hooks:23 - Taking a screenshot
+2020-08-03 22:43:19 INFO  Hooks:28 - ::: Ending automation :::
+2020-08-03 22:46:52 INFO  Hooks:16 - ::: Starting automation :::
+2020-08-03 22:46:52 INFO  Hooks:17 - Browser type: chrome
+2020-08-03 22:46:52 INFO  Hooks:18 - URL: "https://login2.nextbasecrm.com/"
+2020-08-03 22:47:00 INFO  Hooks:23 - Taking a screenshot
+2020-08-03 22:47:01 INFO  Hooks:28 - ::: Ending automation :::
+2020-08-03 22:47:47 INFO  Hooks:16 - ::: Starting automation :::
+2020-08-03 22:47:47 INFO  Hooks:17 - Browser type: chrome
+2020-08-03 22:47:47 INFO  Hooks:18 - URL: "https://login2.nextbasecrm.com/"
+2020-08-03 22:47:57 INFO  Hooks:23 - Taking a screenshot
+2020-08-03 22:47:57 INFO  Hooks:28 - ::: Ending automation :::
