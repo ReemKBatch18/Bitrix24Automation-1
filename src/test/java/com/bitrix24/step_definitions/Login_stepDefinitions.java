@@ -27,6 +27,7 @@ public class Login_stepDefinitions {
     public void user_enters_correct_username(String username) throws InterruptedException {
         wait.until(ExpectedConditions.visibilityOf(loginPage.email));
         loginPage.email.sendKeys(username);
+
     }
 
     @When("User enters correct password {string}")

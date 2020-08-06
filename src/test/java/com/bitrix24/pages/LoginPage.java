@@ -1,7 +1,7 @@
 package com.bitrix24.pages;
 
 import com.bitrix24.utulities.Driver;
-import org.apache.log4j.Logger;
+
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -22,5 +22,10 @@ public class LoginPage {
 
     @FindBy(xpath = "//div[@class='errortext']")
     public WebElement warningMessage;
+
+    @FindBy(linkText = "Google")
+    public WebElement linkVerification;
+
+
 
 }
